@@ -1,0 +1,32 @@
+/* general styling for dark theme */
+
+html {
+  background-color: #222;
+  color: #eee;
+}
+
+a {
+  color: #99f;
+}
+
+/* styling for the navigation bar */
+
+#navBar ul {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  li {
+    list-style-type: none;
+  }
+}
+
+.dropnav {
+  background-color: #222;
+  color: #99f;
+}
+
+/* hiding BABEL test code */
+
+#app {
+  display: none;
+}
